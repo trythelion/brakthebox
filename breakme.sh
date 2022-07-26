@@ -2,6 +2,8 @@
 
 clear
 
+dir=$(pwd)/timetodie
+
 read -p "are you ready to dye>?: " dye
 
 if [[ dye == "n" ]]; then
@@ -10,7 +12,7 @@ if [[ dye == "n" ]]; then
   echo "good bye $USER"
 fi
 
-mkdir timetodye
+mkdir timetodie
 cd    timetodye
 pwd 
 ls
@@ -22,3 +24,8 @@ do
   mkdir derectory
   cd derectory
 done
+
+cd $dir
+cd ..
+echo "The output of this is in this location/file"
+echo "$dir"
