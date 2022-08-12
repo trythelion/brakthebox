@@ -7,15 +7,14 @@ dir=$(pwd)
 read -p "are you ready to dye>?: " dye
 
 if [[ dye == "n" ]]; then
-  echo "to bad"
+  echo "too bad"
   sleep 3
   echo "good bye $USER"
 fi
 
 mkdir timetodie
 cd    timetodie
-pwd 
-ls
+pwd z
 
 sleep 5
 
