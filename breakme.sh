@@ -2,7 +2,7 @@
 
 clear
 
-dir=$(pwd)/timetodie
+dir=$(pwd)
 
 read -p "are you ready to dye>?: " dye
 
@@ -13,7 +13,7 @@ if [[ dye == "n" ]]; then
 fi
 
 mkdir timetodie
-cd    timetodye
+cd    timetodie
 pwd 
 ls
 
@@ -26,6 +26,8 @@ do
 done
 
 cd $dir
-cd ..
+
+echo "$(tree) > output.to.dye
+
 echo "The output of this is in this location/file"
-echo "$dir"
+echo "$dir/output.do.dye"
