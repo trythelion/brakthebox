@@ -30,4 +30,4 @@ cd $dir
 echo "$(tree) > output.to.dye
 
 echo "The output of this is in this location/file"
-echo "$dir/output.do.dye"
+echo "$dir/output.to.dye"
